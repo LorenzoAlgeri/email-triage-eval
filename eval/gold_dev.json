@@ -1,0 +1,84 @@
+[
+  {
+    "id": "M01",
+    "expected": {"category": "RENTAL", "urgency": "MEDIUM", "department": "FRONT_DESK", "draft_status": "READY"},
+    "thread": {"linked_to": [], "type": "NEW"},
+    "note": "Change to an active booking; name, booking and request are all present."
+  },
+  {
+    "id": "M02",
+    "expected": {"category": "QUOTE", "urgency": "MEDIUM", "department": "SALES", "draft_status": "READY"},
+    "acceptable": [{"urgency": "LOW"}],
+    "thread": {"linked_to": [], "type": "NEW"},
+    "note": "Business fleet request. The draft must not contain a price."
+  },
+  {
+    "id": "M03",
+    "expected": {"category": "REPAIR", "urgency": "HIGH", "department": "WORKSHOP", "draft_status": "READY"},
+    "acceptable": [{"category": "RENTAL", "department": "FRONT_DESK"}],
+    "thread": {"linked_to": [], "type": "NEW"},
+    "note": "Brake failure with a child on the trail: safety rule forces HIGH. The draft must not promise an arrival time."
+  },
+  {
+    "id": "M04",
+    "expected": {"category": "BILLING", "urgency": "LOW", "department": "ACCOUNTS", "draft_status": "BLOCKED_BY_RULE"},
+    "acceptable": [{"urgency": "MEDIUM"}],
+    "thread": {"linked_to": [], "type": "NEW"},
+    "note": "Supplier invoice: suppliers never get a reply from the shared inbox."
+  },
+  {
+    "id": "M05",
+    "expected": {"category": "IGNORE", "urgency": "LOW", "department": "NONE", "draft_status": "NOT_APPLICABLE"},
+    "thread": {"linked_to": [], "type": "NEW"},
+    "note": "Spam."
+  },
+  {
+    "id": "M06",
+    "expected": {"category": "REPAIR", "urgency": "MEDIUM", "department": "WORKSHOP", "draft_status": "MISSING_INFO"},
+    "acceptable": [{"urgency": "LOW"}],
+    "thread": {"linked_to": [], "type": "NEW"},
+    "note": "No bike model and no booking: the intake gate must hold the draft."
+  },
+  {
+    "id": "M07",
+    "expected": {"category": "COMPLAINT", "urgency": "HIGH", "department": "MANAGEMENT", "draft_status": "READY"},
+    "acceptable": [{"draft_status": "BLOCKED_BY_RULE"}],
+    "thread": {"linked_to": [], "type": "NEW"},
+    "note": "Refund demand plus a public review threat. A draft that promises a refund must be blocked, so BLOCKED_BY_RULE is also correct."
+  },
+  {
+    "id": "M08",
+    "expected": {"category": "RENTAL", "urgency": "MEDIUM", "department": "FRONT_DESK", "draft_status": "READY"},
+    "acceptable": [{"urgency": "LOW"}],
+    "thread": {"linked_to": ["M01"], "type": "RELATED"},
+    "note": "Same sender adds a question to M01; the booking reference is inherited from the thread."
+  },
+  {
+    "id": "M09",
+    "expected": {"category": "REPAIR", "urgency": "MEDIUM", "department": "WORKSHOP", "draft_status": "NOT_APPLICABLE"},
+    "acceptable": [{"urgency": "LOW"}],
+    "thread": {"linked_to": ["M06"], "type": "BOUNCE"},
+    "flags": ["bounce"],
+    "note": "Our reply to M06 bounced because of a typo in the domain. Handled in code, no model call; inherits from M06."
+  },
+  {
+    "id": "M10",
+    "expected": {"category": "QUOTE", "urgency": "LOW", "department": "SALES", "draft_status": "READY"},
+    "thread": {"linked_to": [], "type": "NEW"},
+    "note": "Group tour price request, no deadline."
+  },
+  {
+    "id": "M11",
+    "expected": {"category": "RENTAL", "urgency": "MEDIUM", "department": "FRONT_DESK", "draft_status": "READY"},
+    "thread": {"linked_to": [], "type": "NEW"},
+    "flags": ["date_mismatch"],
+    "note": "14 May 2026 is a Thursday, not a Wednesday: the calendar check in code must flag it."
+  },
+  {
+    "id": "M12",
+    "expected": {"category": "IGNORE", "urgency": "LOW", "department": "NONE", "draft_status": "NOT_APPLICABLE"},
+    "acceptable": [{"category": "BILLING", "department": "ACCOUNTS", "draft_status": "BLOCKED_BY_RULE"}],
+    "thread": {"linked_to": [], "type": "NEW"},
+    "note": "Automated shipping notice from a supplier: nothing to do."
+  }
+]

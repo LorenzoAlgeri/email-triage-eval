@@ -1,0 +1,75 @@
+[
+  {
+    "id": "M13",
+    "expected": {"category": "REPAIR", "urgency": "LOW", "department": "WORKSHOP", "draft_status": "READY"},
+    "acceptable": [{"urgency": "MEDIUM"}],
+    "thread": {"linked_to": [], "type": "NEW"},
+    "note": "Routine service booking with name, bike model and problem."
+  },
+  {
+    "id": "M14",
+    "expected": {"category": "REPAIR", "urgency": "HIGH", "department": "WORKSHOP", "draft_status": "READY"},
+    "thread": {"linked_to": ["M06"], "type": "FOLLOW_UP"},
+    "note": "Second contact chasing M06: the follow-up rule raises urgency one level; the bike model now completes the intake."
+  },
+  {
+    "id": "M15",
+    "expected": {"category": "BILLING", "urgency": "MEDIUM", "department": "ACCOUNTS", "draft_status": "BLOCKED_BY_RULE"},
+    "acceptable": [{"urgency": "LOW"}],
+    "thread": {"linked_to": [], "type": "NEW"},
+    "note": "Supplier renewal with a deadline: no reply from the shared inbox."
+  },
+  {
+    "id": "M16",
+    "expected": {"category": "COMPLAINT", "urgency": "HIGH", "department": "MANAGEMENT", "draft_status": "READY"},
+    "acceptable": [{"draft_status": "BLOCKED_BY_RULE"}],
+    "thread": {"linked_to": ["M07"], "type": "FOLLOW_UP"},
+    "note": "Chaser on M07 with a chargeback threat."
+  },
+  {
+    "id": "M17",
+    "expected": {"category": "QUOTE", "urgency": "MEDIUM", "department": "SALES", "draft_status": "READY"},
+    "acceptable": [{"urgency": "LOW"}],
+    "thread": {"linked_to": [], "type": "NEW"},
+    "note": "Prospect asking for a proposal for a group event."
+  },
+  {
+    "id": "M18",
+    "expected": {"category": "COMPLAINT", "urgency": "HIGH", "department": "MANAGEMENT", "draft_status": "READY"},
+    "acceptable": [{"category": "REPAIR", "department": "WORKSHOP"}, {"draft_status": "BLOCKED_BY_RULE"}],
+    "thread": {"linked_to": [], "type": "NEW"},
+    "note": "Unhappy with work already done, and a safety risk: complaint first, urgency HIGH."
+  },
+  {
+    "id": "M19",
+    "expected": {"category": "IGNORE", "urgency": "LOW", "department": "NONE", "draft_status": "NOT_APPLICABLE"},
+    "thread": {"linked_to": ["M02"], "type": "RELATED"},
+    "note": "Out-of-office auto-reply in the M02 thread."
+  },
+  {
+    "id": "M20",
+    "expected": {"category": "IGNORE", "urgency": "LOW", "department": "NONE", "draft_status": "NOT_APPLICABLE"},
+    "thread": {"linked_to": ["M01", "M08"], "type": "RELATED"},
+    "note": "Thank-you that closes the M01 thread. Third contact, but IGNORE wins over the escalation rule."
+  },
+  {
+    "id": "M21",
+    "expected": {"category": "RENTAL", "urgency": "LOW", "department": "FRONT_DESK", "draft_status": "READY"},
+    "acceptable": [{"category": "QUOTE", "department": "SALES"}, {"draft_status": "BLOCKED_BY_RULE"}],
+    "thread": {"linked_to": [], "type": "NEW"},
+    "note": "Individual rental price question. A draft that quotes a price must be blocked."
+  },
+  {
+    "id": "M22",
+    "expected": {"category": "IGNORE", "urgency": "LOW", "department": "NONE", "draft_status": "NOT_APPLICABLE"},
+    "thread": {"linked_to": [], "type": "NEW"},
+    "note": "Phishing."
+  },
+  {
+    "id": "M23",
+    "expected": {"category": "REPAIR", "urgency": "HIGH", "department": "WORKSHOP", "draft_status": "MISSING_INFO"},
+    "acceptable": [{"category": "RENTAL", "department": "FRONT_DESK"}],
+    "thread": {"linked_to": [], "type": "NEW"},
+    "note": "Stranded rider after dark: HIGH. No booking reference or bike, so the intake gate holds the draft and asks a human to call."
+  }
+]

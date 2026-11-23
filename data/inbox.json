@@ -1,0 +1,186 @@
+[
+  {
+    "id": "M01",
+    "received_at": "2026-05-11T08:12:00",
+    "sender_name": "Hannah Okafor",
+    "sender_domain": "mailbox.example",
+    "subject": "Child seat for Saturday",
+    "body": "Hi there,\n\nI booked two e-bikes for this Saturday morning, booking LCW-4471. Would it be possible to add a child seat to one of them? My daughter is four.\n\nThanks,\nHannah Okafor"
+  },
+  {
+    "id": "M02",
+    "received_at": "2026-05-11T08:40:00",
+    "sender_name": "Tomasz Brenner",
+    "sender_domain": "brenner-logistics.example",
+    "subject": "Quote for cargo bikes",
+    "body": "Good morning,\n\nWe run a small parcel delivery team in the town centre and want to test cargo bikes before buying our own. Could you send us a quote for 15 cargo bikes for three months, including maintenance?\n\nBest regards,\nTomasz Brenner\nOperations, Brenner Logistics"
+  },
+  {
+    "id": "M03",
+    "received_at": "2026-05-11T09:05:00",
+    "sender_name": "Priya Nandakumar",
+    "sender_domain": "mailbox.example",
+    "subject": "Brake not working - on the river trail now",
+    "body": "Hello, I am on one of your rental bikes on the river trail right now and the rear brake has stopped working completely. I am with my son, about 6 km from the shop, and we have stopped by the old mill. Booking LCW-4502. Please tell me what to do.\n\nPriya"
+  },
+  {
+    "id": "M04",
+    "received_at": "2026-05-11T09:30:00",
+    "sender_name": "Northgate Tyre Supply",
+    "sender_domain": "northgate-tyres.example",
+    "subject": "Invoice NTS-2026-0419",
+    "body": "Dear customer,\n\nPlease find attached invoice NTS-2026-0419 for the April delivery of tyres and inner tubes. Total due: 1,240.00 EUR, payment terms 30 days.\n\nNorthgate Tyre Supply - Accounts receivable"
+  },
+  {
+    "id": "M05",
+    "received_at": "2026-05-11T10:02:00",
+    "sender_name": "Weekend Deals",
+    "sender_domain": "promo-blast.example",
+    "subject": "You have been selected for a FREE cruise!!!",
+    "body": "Congratulations! Your business has been selected to win a luxury cruise for two. Click the link below within 24 hours to claim your prize. No purchase necessary."
+  },
+  {
+    "id": "M06",
+    "received_at": "2026-05-11T10:45:00",
+    "sender_name": "Daniel Achterberg",
+    "sender_domain": "mailbox.example",
+    "subject": "Gears skipping",
+    "body": "Hi,\n\nmy gears keep skipping when I climb, especially on the bigger cogs. Can I bring the bike in at some point this week?\n\nDaniel"
+  },
+  {
+    "id": "M07",
+    "received_at": "2026-05-11T11:20:00",
+    "sender_name": "Grace Whitfield",
+    "sender_domain": "whitfield-family.example",
+    "subject": "Dead battery on Sunday",
+    "body": "Hello,\n\nWe rented two e-bikes last Sunday (booking LCW-4390). One battery died after about 10 km and we had to push the bike most of the way back, with two tired children. Nobody warned us the battery was not fully charged. I expect a full refund for that bike, otherwise I will write about this in a public review.\n\nGrace Whitfield"
+  },
+  {
+    "id": "M08",
+    "received_at": "2026-05-11T12:10:00",
+    "sender_name": "Hannah Okafor",
+    "sender_domain": "mailbox.example",
+    "subject": "Re: Child seat for Saturday",
+    "body": "Sorry, one more thing: my partner is 1.55 m tall. Is the small frame you have for the e-bikes fine for her height?\n\nHannah"
+  },
+  {
+    "id": "M09",
+    "received_at": "2026-05-11T13:00:00",
+    "sender_name": "Mail Delivery Subsystem",
+    "sender_domain": "larkspur.example",
+    "subject": "Undeliverable: Re: Gears skipping",
+    "body": "This message was created automatically by the mail delivery software.\n\nYour message could not be delivered to the recipient at domain mialbox.example: the domain was not found.\n\nOriginal subject: Re: Gears skipping"
+  },
+  {
+    "id": "M10",
+    "received_at": "2026-05-11T14:15:00",
+    "sender_name": "Sofia Lindqvist",
+    "sender_domain": "lindqvist-studio.example",
+    "subject": "Guided tour for our team",
+    "body": "Hello Larkspur team,\n\nOur design studio would like to do a half-day guided bike tour in June as a team outing. We are 14 people, mixed fitness levels. Do you organise this, and what would it cost roughly?\n\nKind regards,\nSofia Lindqvist"
+  },
+  {
+    "id": "M11",
+    "received_at": "2026-05-11T15:30:00",
+    "sender_name": "Ben Carrow",
+    "sender_domain": "mailbox.example",
+    "subject": "Change of date",
+    "body": "Hi, I have booking LCW-4488 for a hybrid bike. Can we move it from Wednesday 14 May to Friday 15 May? Same time if possible.\n\nThanks, Ben Carrow"
+  },
+  {
+    "id": "M12",
+    "received_at": "2026-05-11T16:45:00",
+    "sender_name": "Workshop Parts Direct",
+    "sender_domain": "parts-direct.example",
+    "subject": "Your order 88213 has shipped",
+    "body": "Good news! Your order 88213 (brake pads, 40 pairs) has left our warehouse and will be delivered by courier. Track your parcel in your account area. This is an automated message, please do not reply."
+  },
+  {
+    "id": "M13",
+    "received_at": "2026-05-11T19:40:00",
+    "sender_name": "Marta Kowalczyk",
+    "sender_domain": "mailbox.example",
+    "subject": "Service booking",
+    "body": "Hi, I'd like to book my Trek FX 3 in for a full service. It has started squeaking from the bottom bracket and the chain looks worn. Any slot next week is fine.\n\nMarta Kowalczyk"
+  },
+  {
+    "id": "M14",
+    "received_at": "2026-05-12T07:55:00",
+    "sender_name": "Daniel Achterberg",
+    "sender_domain": "mailbox.example",
+    "subject": "Re: Gears skipping",
+    "body": "Hello again, I am still waiting for an answer about my gears. This is the second time I write. In case it helps, it's a Cube Kathmandu, about three years old.\n\nDaniel"
+  },
+  {
+    "id": "M15",
+    "received_at": "2026-05-12T08:30:00",
+    "sender_name": "Pedalpath Insurance",
+    "sender_domain": "pedalpath-insure.example",
+    "subject": "Fleet policy renewal",
+    "body": "Dear policyholder,\n\nYour fleet insurance policy PP-77120 expires at the end of the month. The renewal premium is 3,200 EUR. Please confirm the renewal by 30 May to keep your cover without interruption.\n\nPedalpath Insurance - Renewals"
+  },
+  {
+    "id": "M16",
+    "received_at": "2026-05-12T09:10:00",
+    "sender_name": "Grace Whitfield",
+    "sender_domain": "whitfield-family.example",
+    "subject": "Re: Dead battery on Sunday",
+    "body": "I haven't heard back from you. If I don't get my money back for the bike with the dead battery, I will dispute the card payment with my bank.\n\nGrace Whitfield"
+  },
+  {
+    "id": "M17",
+    "received_at": "2026-05-12T10:00:00",
+    "sender_name": "Riverside Primary School",
+    "sender_domain": "riverside-school.example",
+    "subject": "Cycling safety day in June",
+    "body": "Dear Sir or Madam,\n\nWe are planning a cycling safety day for 40 pupils aged 9 to 11 in June. Would you be able to supply bikes and helmets, and perhaps an instructor for the morning? We would be grateful for a proposal.\n\nYours faithfully,\nThe school office, Riverside Primary School"
+  },
+  {
+    "id": "M18",
+    "received_at": "2026-05-12T11:25:00",
+    "sender_name": "Ahmed Siddiqui",
+    "sender_domain": "mailbox.example",
+    "subject": "Brake service not done properly",
+    "body": "I collected my Specialized Sirrus from your workshop yesterday after a brake service (job W-1187) and the front brake already feels spongy. I don't feel safe riding it to work. Honestly not happy with the work.\n\nAhmed Siddiqui"
+  },
+  {
+    "id": "M19",
+    "received_at": "2026-05-12T12:40:00",
+    "sender_name": "Tomasz Brenner",
+    "sender_domain": "brenner-logistics.example",
+    "subject": "Automatic reply: Re: Quote for cargo bikes",
+    "body": "I am out of the office until 18 May with limited access to email. For urgent matters please contact the operations desk."
+  },
+  {
+    "id": "M20",
+    "received_at": "2026-05-12T14:05:00",
+    "sender_name": "Hannah Okafor",
+    "sender_domain": "mailbox.example",
+    "subject": "Re: Child seat for Saturday",
+    "body": "Perfect, thank you, that is all sorted then. See you on Saturday!\n\nHannah"
+  },
+  {
+    "id": "M21",
+    "received_at": "2026-05-12T15:20:00",
+    "sender_name": "Kenji Watanabe",
+    "sender_domain": "mailbox.example",
+    "subject": "Road bike for a week in July",
+    "body": "Hello, I will be visiting the area in July. How much is it to rent a road bike for a week, and do you have one in size L?\n\nKenji Watanabe"
+  },
+  {
+    "id": "M22",
+    "received_at": "2026-05-12T16:50:00",
+    "sender_name": "Account Security Team",
+    "sender_domain": "secure-verify.example",
+    "subject": "Action required: your mailbox will be suspended",
+    "body": "We detected unusual activity on your mailbox. To avoid suspension, confirm your password within 12 hours using the secure link below."
+  },
+  {
+    "id": "M23",
+    "received_at": "2026-05-12T22:10:00",
+    "sender_name": "Lena Hoffmann",
+    "sender_domain": "mailbox.example",
+    "subject": "Flat tyre",
+    "body": "Hi, I rented a bike from you this morning and the back tyre just went completely flat. I'm stuck at the north station car park and it's getting dark. What should I do?\n\nLena"
+  }
+]
